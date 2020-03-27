@@ -2,7 +2,7 @@ console.log("Connected")
 
 //stoplight
 
-let stoplight = "red";
+/* let stoplight = "red";
 if (stoplight == "red") {
     console.log("The stoplight is red, so stop");
 } else if (stoplight == "yellow") {
@@ -10,9 +10,11 @@ if (stoplight == "red") {
 } else if (stoplight == "green") {
     console.log("The stoplight is green, so go");
 }
+ */
 
 //coffee
-let Kristy = "lactose";
+
+/* let Kristy = "lactose";
 let BaoBao = "not lactose";
 if (Kristy == "lactose" || BaoBao == "lactose") {
     console.log("Either Kristy or Bao Bao are lactose intolerant, so they will have almond milk and milk");
@@ -20,10 +22,11 @@ if (Kristy == "lactose" || BaoBao == "lactose") {
     console.log("Both Kristy and Bao Bao are lactose intolerant, so they will have only have almond milk");
 } else {
     console.log("Neither Kristy or Bao Bao are lactose intolerant, so they will have only have milk");
-}
+} */
 
 //temperature
-let temp = 74;
+
+/* let temp = 74;
 if (temp < 68) {
     console.log("Too cold!");
 } else if (temp => 68 && temp <= 72) {
@@ -33,3 +36,20 @@ if (temp < 68) {
 } else if (temp > 76) {
     console.log("Too hot!");
 }
+ */
+
+ //challenge 1
+let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa", "Richard"];
+let lessthan5 = students.filter(function(five){
+    return five.length >= 5
+})
+console.log(lessthan5)
+
+//challenge 2
+let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa",
+"Richard"];
+console.log(students.includes("Junshen"))
+function namecheck(string){
+    students.includes("Savva", "Alan")
+}
+console.log(students.some(namecheck))
